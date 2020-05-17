@@ -1,5 +1,5 @@
 package org.kdcoder.springblog.dto;
-
+//Adding Comment for git tutorials.(1)
 public class LoginRequest {
 
 	private String username;
