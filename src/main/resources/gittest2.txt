@@ -2,6 +2,14 @@ Git testing for tutorials.
 
 Changes for git-tutorial branch.
 
-merge conflict testing on master.
+
 
 merge conflict on same branch
+
+
+mergeconfilict testing on git-tutorial.
+
+
+merge conflict testing on master.
+
+
