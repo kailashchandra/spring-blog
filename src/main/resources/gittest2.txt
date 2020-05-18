@@ -3,3 +3,5 @@ Git testing for tutorials.
 Changes for git-tutorial branch.
 
 merge conflict testing on master.
+
+merge conflict on same branch
