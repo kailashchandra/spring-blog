@@ -93,9 +93,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<finalName>spring-blog-mysql</finalName>
-				</configuration>
 			</plugin>
 		</plugins>
 	</build>
