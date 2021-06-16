@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  mysql-standalone:
+    image: mysql:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=kdcoder
+      - MYSQL_DATABASE=springblog
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=kdcoder
+    ports:
+      - 3307:3306
+
+  app:
+    image: mysql:latest
+    ports:
+       - 8091:8091
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://dockerrelatedfiles_mysql-standalone_1:3306/springblog?autoReconnect=true&useSSL=false
+    depends_on:
+       - mysql-standalone
